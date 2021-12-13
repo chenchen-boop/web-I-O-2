@@ -1,0 +1,450 @@
+/* html{
+    width: 1280px;
+    height: 1653px;
+    background: #8C3A27;
+    ;
+
+
+} */
+
+.container{
+ /* position: relative;    */
+ width: 1280px;
+ height: 1653px;
+ background: #8C3A27;
+ /* padding:0 auto; */
+}
+.header_container{
+    /* sopacity:0.5; */
+    position: relative;
+    width:100%;
+    height: 150px;
+    /* border:3px solid green; */
+    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
+    background: #D9C6B0;    
+}
+.logo_container{
+    position: absolute;
+    width: 192px;
+    height: 103px;
+    margin:24px 1051px 23px 37px ;
+    
+    
+    font-family: Warnes;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 83px;
+    display: flex;
+    /* align-items: center; */
+    
+    color: #000000;
+    
+}
+.flex{
+    display: flex;
+
+}
+.translate{
+    position: absolute;
+    width: 235px;
+    height: 49px;
+    left: 1026px;
+    top: 9px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #000000;
+
+}
+.coffee_bnd{
+    /* background-image:url("../image/bnd/咖啡背景.png"); */
+   
+
+}
+.coffee_box{
+    /* align-items: center; */
+    /* border:3px solid green; */
+    width:1280px;
+    height:400pX;
+    text-align: left;
+    margin-bottom: 53px;
+
+
+
+}
+.coffee_title_box{
+    width: 210px;
+    height: 65px;
+    margin-top: 48px;
+    margin-left: 166px;
+
+}
+.coffee_intro_text_box{
+    width: 440px;
+    height: 158px;
+    margin-left: 193px;
+    margin-bottom: 121px;
+
+
+}
+.newproduct_container{
+    position: relative;
+    width: 1024px;
+    height: 230px;
+    background-color:  rgba(77, 62, 55, 1);
+
+    /* padding:35px auto; */
+    margin:35px auto;
+
+}
+.newproduct_gnd{
+    text-align: right;
+    margin-left: 355px;
+    margin-right: 0px;
+}
+
+.search_box{
+    width: 211px;
+    height: 31px;
+    background: #8C3A27;
+    border-radius: 46px;
+    margin:92px 20px 27px 970px;
+    padding-left:10px ;
+    align-items: center;
+}
+.search_icon{
+    margin-right:10px;
+    color:white;
+
+}
+.translate_box{
+    width: 235px;
+    height: 49px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;  
+    align-items: center;
+    color: #000000;  
+    margin:9px 19px auto auto ;
+    /* background-color: aqua; */
+
+}  
+.seperator{
+    line-height: 21px;
+    color: #000000;
+
+}
+.medal_icon_box{
+    width: 24px;
+    height: 24px;
+    margin-top: 92px;
+    margin-left: 20px;
+    margin-bottom: 31px;
+}
+.user_icon_box{
+    width: 24px;
+    height: 24px;
+    margin-top: 92px;
+    margin-left: 20px;
+    margin-bottom: 31px;
+
+}
+
+
+.newproduct_text_新品上市_box{
+    position: absolute;
+    width:123px;
+    height: 21px;
+    /* border:3px solid green; */
+
+    margin-top:18px;
+    margin-left: 0px;
+
+
+}
+
+.title_box{
+    /* border:2px solid green; */
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    margin-top: 49px;
+    margin-left: 36px;
+
+}
+.青月_intro_text_box{
+    /* border:2px solid green; */
+    position: absolute;
+    width: 284px;
+    height: 97px; 
+    margin-top: 118px;
+    margin-left: 27px; 
+
+
+}
+.arrow_left_icon{
+    width: 59px;
+    height: 59px;
+    margin-left: -26px;
+}
+.arrow_right_icon{
+    width: 59px;
+    height: 59px;
+
+    /* margin-right: 26px; */
+}
+.coffee_pic_box{
+    width: 175px;
+    height: 220px;
+    /* border: 2px solid green ; */
+    margin-top: 80px;
+    margin-left:92px;
+}
+
+
+.sandwich_pic_box{
+    width: 175px;
+    height: 220px;
+    /* border: 2px solid green ; */
+    margin-left: 60px; 
+    margin-top: 80px;
+}
+
+img[src*='餐點'],img[src*='飲品']{
+    width: 175px;
+    height: 154px;
+
+}
+
+
+img[src*='課程'],img[src*='商品'],img[src*='活動']{
+    width: 129px;
+    height: 304px;
+
+}
+img[src*='新品']{
+
+
+}
+.coffee_text_box{
+    width:175px;
+    height:66px;
+    /* border: 2px solid red; */
+   
+    text-align: center;
+    padding-top:15px;
+    
+
+}
+.sandwich_text_box{
+    width:175px;
+    height:66px;
+    /* border: 2px solid red; */
+   
+    text-align: center;
+    padding-top:15px;
+    
+
+}
+
+.課程_box{
+    width: 129px;
+    height: 304px;
+    /* border: 2px solid gold; */
+    margin: 48px 48px 48px 128px ;
+}
+.課程_box:hover,.商品_box:hover,.活動_box:hover{
+    opacity: 0.5;
+}
+.商品_box{
+    width: 129px;
+    height: 304px;
+    /* border: 2px solid gold; */
+    margin: 48px 48px 48px 0px ;
+}
+.活動_box{
+    width: 129px;
+    height: 304px;
+    /* border: 2px solid gold; */
+    margin: 48px 48px 48px 0px ;
+
+}
+.music_box{
+    width: 1280px;
+    height: 400px;
+    /* border:2px solid  grey; */
+    margin-bottom: 49px;
+
+
+}
+.music_title_text_box{
+    width: 210px;
+    height: 65px;
+    /* border: 2px solid gold; */
+    margin: 48px 418px 12px 0px;
+
+
+}
+.title_text{
+    align-items: center;
+    text-align: left;
+
+
+}
+.music_text{
+    width: 440px;
+    height: 181px;
+    /* border: 2px solid rgb(0, 255, 255); */
+    align-items: center;
+}
+.footer_box{
+    width: 1280px;
+    height: 300px;
+    background: #A68F72;
+    padding-top: 65px;
+
+
+}
+.footer_contact_text_box{
+    width: 792px;
+    height: 100px;
+    /* border: 2px solid rgb(0, 255, 255); */
+    margin:0px auto 10px;
+    text-align: center;
+
+
+}
+/* .social_icon_box{
+    text-align: center;
+    align-items: center;
+
+} */
+.fb_icon{
+    margin-left:600px;
+    margin-right:10px;
+}
+.twitter_icon{
+    margin-right:10px;
+
+}
+.footer_text_box{
+    width: 305px;
+    height: 46px;
+    /* border: 2px solid rgb(0, 255, 255); */
+    margin-top:55px ;
+    margin-left: 975px;
+  
+    align-items: center;
+
+
+
+}
+.separator{
+    
+   
+    width: 2px;
+    height: 21px;
+    margin-left:8px ;
+    margin-right: 10px;
+    background-color: rgba(130, 130, 130, 1);
+
+
+}
+.coffee_bnd{
+    width:100%;
+    /* height: 400px; */
+    background-image:url("image/bnd/咖啡背景.png");
+
+}
+.music_bnd{
+   
+    width:100%;
+    background-image: url("image/bnd/音樂背景.png");
+}
+@font-face {
+    font-family:Bakudai-Regular;
+    src: url(https://github.com/max32002/bakudaifont/raw/master/webfont/Bakudai-Regular.woff2) format("woff2")
+    , url(https://github.com/max32002/bakudaifont/raw/master/webfont/Bakudai-Regular.woff) format("woff");
+  }
+.Bakudai_title_48{
+    font-family: Bakudai-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color:#FFFFFF;
+
+}
+.Bakudai_title_30{
+    font-family:Bakudai-Regulari;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color:#FFFFFF;
+
+}
+.Bakudai_title_24{
+    font-family: Bakudai-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color:#FFFFFF;
+
+
+}
+.Bakudai_title_14{
+    font-family: Bakudai-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color:#FFFFFF;
+
+}
+.Roboto_18_white{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color:white;
+}
+.Roboto_18_black{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color:black;
+}
+
+.Roboto_18_gray{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.37);
+}
+.logo_text{
+    font-family: Warnes;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color:black;
+
+}
+.translate:hover{
+    color:white;
+
+
+}
+.coffee_pic:hover,.sandwich_pic:hover{
+    background-color: #D9C6B0;
+
+}
